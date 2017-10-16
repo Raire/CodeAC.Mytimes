@@ -140,3 +140,37 @@ span.pictext {
   border-bottom: 1px solid black;
   padding: 15px 15px;
 }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.footer .mytimes {
+ display: inline-block;
+ font-family: Georgia;
+ font-size: 16px;
+ font-weight: bold;
+ color: white;
+ padding-right: 25px;
+ border-right: 1px solid white;
+}
+
+.footer nav {
+  display: inline-block;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.footer p {
+  display: block;
+  padding-right: 25px;
+}
